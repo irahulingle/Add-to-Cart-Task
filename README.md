@@ -1,12 +1,49 @@
-# React + Vite
+🛍️ React Cart App
+A simple responsive ReactJS Add to Cart App with:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Product listing from Fake Store API
+✅ Add to Cart with Toast notifications
+✅ Quantity increment / decrement
+✅ Cart page with total price
+✅ "Continue shopping" and "Clear cart" buttons
+✅ Empty cart illustration
+✅ Built with TailwindCSS and React Context API
+✅ Mobile responsive & smooth UX
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+ReactJS (with Vite)
+React Context API
+Tailwind CSS
+react-hot-toast
+Fake Store API
+React Icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📦 Installation
+# Clone the repo
+git clone https://github.com/yourusername/cart-app.git
+cd cart-app
 
-## Expanding the ESLint configuration
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Run app locally
+npm run dev
+
+📋 Features
+Fetch products from Fake Store API
+Add items to cart with toast notification
+Prevent adding duplicates
+View Cart with:
+Increment / Decrement item quantity
+Remove item from cart
+"Clear cart" button
+"Continue shopping" button
+Empty cart illustration
+Responsive design (Mobile + Desktop)
+Smooth animations
+
+🔗 API Used
+Fake Store API ("https://fakestoreapi.com/")
+
+
+
